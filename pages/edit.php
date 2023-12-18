@@ -13,13 +13,13 @@ if (isset($_GET['id'])) {
     $row = $stmt->fetch(PDO::FETCH_ASSOC);
 
     if (!$row) {
-        // Handle invalid ID (redirect or display an error message)
-        header("Location: index.php"); // Redirect to the main page
+        
+        header("Location: index.php"); 
         exit();
     }
 } else {
-    // Handle missing ID (redirect or display an error message)
-    header("Location: index.php"); // Redirect to the main page
+
+    header("Location: index.php"); 
     exit();
 }
 

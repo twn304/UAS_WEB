@@ -13,13 +13,13 @@ if (isset($_GET['id'])) {
     $toilet = $stmt->fetch(PDO::FETCH_ASSOC);
 
     if (!$toilet) {
-        // Handle invalid ID (redirect or display an error message)
-        header("Location: checklist.php"); // Redirect to the main page
+        
+        header("Location: checklist.php"); 
         exit();
     }
 } else {
-    // Handle missing ID (redirect or display an error message)
-    header("Location: checklist.php"); // Redirect to the main page
+
+    header("Location: checklist.php"); 
     exit();
 }
 

@@ -74,7 +74,7 @@ $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     <th>Keterangan</th>
                     <th>Action</th>
                     <th>Edit</th>
-                    <th>Checklist</th> <!-- New column for the checklist button -->
+                    <th>Checklist</th> 
                 </tr>
                 <?php foreach ($rows as $row): ?>
                     <tr>
