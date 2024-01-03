@@ -1,7 +1,9 @@
+body {
+    margin: 0;
+}
 .navbar-class{ 
     background: red;
 }
-
 
 /* REGISTER CONTAINER  */
 .register__container {
@@ -59,3 +61,29 @@
     color:#333;
     text-align: center;
 }
+
+
+/* Header Container  */
+
+.header__container {
+    background: blue;
+}
+
+.header__blocking {
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    flex-direction: column;
+    flex-direction: row;
+}
+
+/* footer container  */
+
+.footer__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+}
+
+
