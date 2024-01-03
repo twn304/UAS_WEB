@@ -50,6 +50,7 @@ $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 <body>
     <div class="container mt-5">
+        <h1>Dashboard</h1>
         <h3><?php echo $_SESSION["user"]["name"] ?></h3>
         <p><?php echo $_SESSION["user"]["email"] ?></p>
 
@@ -72,25 +73,25 @@ $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <tr>
                     <th>Lokasi</th>
                     <th>Keterangan</th>
-                    <th>Action</th>
                     <th>Edit</th>
                     <th>Checklist</th> 
+                    <th>Action</th>
                 </tr>
                 <?php foreach ($rows as $row): ?>
                     <tr>
                         <td><?php echo $row['lokasi']; ?></td>
                         <td><?php echo $row['keterangan']; ?></td>
                         <td>
-                            <form action="" method="POST">
-                                <input type="hidden" name="delete_id" value="<?php echo $row['id']; ?>">
-                                <input type="submit" class="btn btn-danger" name="delete" value="Delete">
-                            </form>
-                        </td>
-                        <td>
                             <a href="edit.php?id=<?php echo $row['id']; ?>" class="btn btn-primary">Edit</a>
                         </td>
                         <td>
                             <a href="checklist.php?id=<?php echo $row['id']; ?>" class="btn btn-info">Checklist</a>
+                        </td>
+                        <td>
+                            <form action="" method="POST">
+                                <input type="hidden" name="delete_id" value="<?php echo $row['id']; ?>">
+                                <input type="submit" class="btn btn-danger" name="delete" value="Delete">
+                            </form>
                         </td>
                     </tr>
                 <?php endforeach; ?>

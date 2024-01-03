@@ -1,3 +1,61 @@
 .navbar-class{ 
     background: red;
 }
+
+
+/* REGISTER CONTAINER  */
+.register__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Menetapkan tinggi ke 100% dari tinggi viewport */
+    margin: 0;
+}
+.register__content {
+    width: 300px;
+}
+
+.register__content-title {
+    color:#333;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.btn {
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-block {
+    width: 100%;
+}
+
+/* LOGIN CONTAINER  */
+
+.login__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Menetapkan tinggi ke 100% dari tinggi viewport */
+    margin: 0;
+}
+.login__content {
+    width: 300px;
+}
+
+.login__content-title {
+    color:#333;
+    text-align: center;
+}
