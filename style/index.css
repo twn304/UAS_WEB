@@ -5,23 +5,6 @@ body {
     background: red;
 }
 
-/* REGISTER CONTAINER  */
-.register__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh; /* Menetapkan tinggi ke 100% dari tinggi viewport */
-    margin: 0;
-}
-.register__content {
-    width: 300px;
-}
-
-.register__content-title {
-    color:#333;
-    text-align: center;
-}
-
 .form-group {
     margin-bottom: 15px;
 }
@@ -34,7 +17,6 @@ body {
 
 .btn {
     padding: 10px;
-    background-color: #28a745;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -44,46 +26,16 @@ body {
     width: 100%;
 }
 
-/* LOGIN CONTAINER  */
 
-.login__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh; /* Menetapkan tinggi ke 100% dari tinggi viewport */
-    margin: 0;
+.navbar-nav .nav-link {
+    color:white;
 }
-.login__content {
-    width: 300px;
-}
-
-.login__content-title {
-    color:#333;
-    text-align: center;
-}
-
-
-/* Header Container  */
-
-.header__container {
-    background: blue;
-}
-
-.header__blocking {
-    display: flex;
-    max-width: 1280px;
-    margin: 0 auto;
-    flex-direction: column;
-    flex-direction: row;
-}
-
-/* footer container  */
 
 .footer__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #333;
+    background-color: #0d6efd;
+    padding : 20px 0;
+    text-align: center;
+    color:#ffffff;
+    margin-top: 200px;
+    
 }
-
-

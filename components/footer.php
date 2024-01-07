@@ -3,7 +3,7 @@
     <div class="footer__container">
         <div class="fotter__content">
             <div class="fotter__content-title">
-                <h2>ini footer</h2>
+                <h4>Copyright Universitas Pelita Bangsa 2024 - Kelompok 10</h4>
             </div>
         </div>
     </div>
