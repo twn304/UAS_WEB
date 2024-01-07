@@ -104,7 +104,7 @@ if (isset($_POST['login'])) {
 
                     <input type="submit" class="btn btn-primary btn-block" name="login" value="Masuk" />
                 </form>
-                <p class="mt-3"><a href="../index.php">Back</a></p>
+                <p class="mt-3"><a href="../../index.php">Back</a></p>
             </div>
         </div>
     </div>
