@@ -9,7 +9,7 @@ UAS
 |username :| ww |
 |password : | ww|
 |link Web HOSTING DEMO : | https://demo-check-kebersihan.000webhostapp.com/ |
-|link youtube : |  |
+|link youtube : |  https://youtu.be/pTm8lAVqGCA |
 
 ## Home Page
 ![Alt text](img/image-1.png)
